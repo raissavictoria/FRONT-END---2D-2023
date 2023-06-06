@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #0E0229;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:20 px 0;
+  }
+
+.cabecalho-imagem{
+      width: 20%;
+  }
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.tecnico-imagem{
+  width: 30%;
+}
+#tecnico{
+  background-image: linear-gradient(#643cc1, #1b47a0);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+  padding: 24%;
+}
+
+.tecnico-div-conteudo{
+  width: 35%;
+
+}
+.tecnico-title{
+  padding: 24px 0;
+  front-size: 19px;
+}
+
+
+body {
+  font-family: 'Poppins',sans-serif;
+}
+.Estudante-titulo{
+  text-align: center;
+  padding: 50px;
+} 
+.estudante-imagem{
+  width: 500px;
+}
+.estudante-todos{
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  padding: 50px;
+}
+.rodape{
+  background-color: #36f017;
+  text-align: center;
+  padding: 50px 0;
+}
